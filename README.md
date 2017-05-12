@@ -13,6 +13,17 @@
 ## 其他
 
 **指定格式化目录**
+
 命令行第二个参数，例如：`bvue app`
+
+## 效果
+
+转换前：
+
+![before](src/img/before.png)
+
+转换后：
+
+![after](src/img/after.png)
 
 
