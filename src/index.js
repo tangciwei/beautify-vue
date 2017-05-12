@@ -1,3 +1,5 @@
+#!/usr/bin/env node --harmony
+
 /**
  * @file index.js
  * @author tangciwei(tangciwei@qq.com)
