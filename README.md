@@ -20,10 +20,10 @@
 
 转换前：
 
-![before](src/img/before.png)
+![before](doc/img/before.png)
 
 转换后：
 
-![after](src/img/after.png)
+![after](doc/img/after.png)
 
 
