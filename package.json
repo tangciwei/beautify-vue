@@ -1,0 +1,31 @@
+{
+  "name": "beautify-vue",
+  "version": "0.0.0",
+  "description": "vue文件美化",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tangciwei/beautify-vue.git"
+  },
+  "keywords": [
+    "vue格式化",
+    "vue美化"
+  ],
+  "bin": {
+    "bvue": "src/index.js"
+  },
+  "author": "tangciwei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tangciwei/beautify-vue/issues"
+  },
+  "homepage": "https://github.com/tangciwei/beautify-vue#readme",
+  "dependencies": {
+    "fecs": "^1.2.4",
+    "js-beautify": "^1.6.12",
+    "os": "^0.1.1"
+  }
+}
