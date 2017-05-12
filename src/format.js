@@ -80,7 +80,7 @@ module.exports = (option, callback) => {
                         + data + '\n'
                         + srcTag.script[1] + '\n';
                     if (style) {
-                        style += srcTag.style[0] + '\n'
+                        result += srcTag.style[0] + '\n'
                             + styleFormat + '\n'
                             + srcTag.style[1] + '\n';
                     }
