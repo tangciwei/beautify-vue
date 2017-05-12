@@ -18,12 +18,8 @@
 
 ## 效果
 
-转换前：
+转换对比
 
-![before](doc/img/before.png)
-
-转换后：
-
-![after](doc/img/after.png)
+![before](doc/img/before.png) vs ![after](doc/img/after.png)
 
 
