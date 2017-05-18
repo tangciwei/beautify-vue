@@ -11,9 +11,9 @@ let chalk = require('chalk');
 
 module.exports = (type) => {
     let mapType = {
-        js: '--type=js',
-        css: '--type=css',
-        vue: '--type=vue'
+        js: './ --type=js',
+        css: './ --type=css',
+        vue: './ --type=vue'
     };
     let command = mapType[type];
 
@@ -29,6 +29,7 @@ module.exports = (type) => {
         console.log(chalk.red('【强制性错误有】'));
 
         let fileCount = 0;
+        let errNum = 0;
         data.forEach(item => {
             let filename = item.relative;
             let errors = item.errors;
@@ -49,6 +50,8 @@ module.exports = (type) => {
                 let info = chalk.red(lc) + chalk.green(message);
                 console.log(info);
             });
+            errNum += errorCount;
         });
+        console.log(chalk.red('错误总数: ' + errNum));
     });
 };
