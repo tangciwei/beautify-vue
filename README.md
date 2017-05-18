@@ -27,8 +27,6 @@ bvue check css
 
 ## 效果
 
-转换对比
-
-![before](doc/img/before.png) vs ![after](doc/img/after.png)
+![diff](doc/img/diff.png)
 
 
