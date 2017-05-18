@@ -11,9 +11,9 @@ let chalk = require('chalk');
 
 module.exports = (type) => {
     let mapType = {
-        js: './ --type=js',
-        css: './ --type=css',
-        vue: './ --type=vue'
+        js: '--type=js',
+        css: '--type=css',
+        vue: '--type=vue'
     };
     let command = mapType[type];
 
