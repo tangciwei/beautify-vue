@@ -1,3 +1,8 @@
 #!/usr/bin/env node --harmony
-
-require('../src/index')(process.argv[2]);
+let params = process.argv.slice(2);
+if (['c', 'check'].indexOf(params[0]) !== -1) {
+    require('../src/check')(params[1]);
+}
+else {
+    require('../src/index')();
+}
