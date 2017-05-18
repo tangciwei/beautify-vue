@@ -14,7 +14,16 @@
 
 **指定格式化目录**
 
-命令行第二个参数，例如：`bvue app`
+命令行第二个参数，例如：`bvue ./app/component`
+
+**代码检查**
+
+```
+bvue check vue
+bvue check js
+bvue check css
+
+```
 
 ## 效果
 
