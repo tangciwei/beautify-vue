@@ -1,7 +1,10 @@
 #!/usr/bin/env node --harmony
 let params = process.argv.slice(2);
-if (['c', 'check'].indexOf(params[0]) !== -1) {
+if (['c', 'check', '-c', '-check'].indexOf(params[0]) !== -1) {
     require('../src/check')(params[1]);
+}
+else if (['-js', 'js'].indexOf(params[0]) !== -1) {
+    require('../src/format-js')(params[1]);
 }
 else {
     require('../src/index')();
