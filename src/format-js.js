@@ -7,7 +7,7 @@ module.exports = (rootDir = process.cwd()) => {
 
     let files = util.getAllFiles(rootDir);
     files = files.filter(item => path.extname(item) === '.js');
-
+    
     files.forEach(item => {
         // 文件名
         let filename = path.basename(item, '.js');
