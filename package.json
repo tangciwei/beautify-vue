@@ -1,6 +1,6 @@
 {
   "name": "beautify-vue",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "vue文件美化",
   "main": "src/index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   "homepage": "https://github.com/tangciwei/beautify-vue#readme",
   "dependencies": {
     "fecs": "^1.2.4",
+    "format-help": "0.0.2",
     "js-beautify": "^1.6.12",
     "os": "^0.1.1"
   }
